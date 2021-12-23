@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: "cabin";
+  background-color: #2d46ba;
+}
+
+nav {
+  background-color: black;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 10%;
+  margin-left: 7%;
+}
+.menu {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  width: 40%;
+}
+
+.menu li {
+  padding: 15px;
+  font-weight: 700;
+}
+
+main {
+  color: #1ed760;
+  text-align: center;
+  background: url("https://www-growth.scdn.co/static/home/bursts.svg");
+  background-size: 170%;
+  background-position: 42% 5%;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  padding-bottom: 250px;
+}
+
+h1 {
+  font-size: 170px;
+  font-weight: 700;
+  line-height: 166px;
+  margin-bottom: 40px;
+  width: 800px;
+  text-indent: -3em;
+  transform: translate(150px, 0px);
+}
+
+#sub-heading {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 50px;
+}
+
+.cta {
+  text-decoration: none;
+  color: #2d46ba;
+  text-transform: uppercase;
+  background-color: #1ed760;
+  padding: 16px 45px;
+  border-radius: 300px;
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 110px;
+  background-color: black;
+  color: white;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+}
+
+.logo-footer {
+  width: 10%;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  /* align-items:flex-end; */
+}
+
+.footer_heading{
+  margin-left: 30px;
+}
+
+.footer-menu ul{
+  margin-top: -10px;
+}
+
+.footer-menu ul li{
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.icons {
+  padding-right: 50px;
+}
+
+.fab {
+  font-size: 30px;
+  background-color: #222326;
+  padding: 17px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.fa-facebook-f {
+  padding-left: 22px;
+  padding-right: 22px;
+}
