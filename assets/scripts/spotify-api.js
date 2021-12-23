@@ -1,7 +1,7 @@
-const clientId = "8dbc89fa046b422d9edc5bad45c354d5";
-const clientSecret = "f04e51bd1c8d410a8a895930f955f4a6";
+const clientId = "";
+const clientSecret = "";
 const clientEncoded =
-  "OGRiYzg5ZmEwNDZiNDIyZDllZGM1YmFkNDVjMzU0ZDU6ZjA0ZTUxYmQxYzhkNDEwYThhODk1OTMwZjk1NWY0YTY=";
+  "";
 
 const spotifyApi = {
   browseNewReleases: async (api_token) => {
@@ -66,7 +66,7 @@ const spotifyApi = {
   },
   generateSpotifyToken: async () => {
     const clientEncoded =
-      "OGRiYzg5ZmEwNDZiNDIyZDllZGM1YmFkNDVjMzU0ZDU6ZjA0ZTUxYmQxYzhkNDEwYThhODk1OTMwZjk1NWY0YTY=";
+      "";
     const result = await fetch("https://accounts.spotify.com/api/token", {
       method: "POST",
       headers: {
