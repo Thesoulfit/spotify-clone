@@ -1,7 +1,4 @@
-const clientId = "";
-const clientSecret = "";
-const clientEncoded =
-  "";
+
 
 const spotifyApi = {
   browseNewReleases: async (api_token) => {
